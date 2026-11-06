@@ -1,0 +1,40 @@
+{
+  "_note": "Aggregates only. Every number has its source and date in stats/SOURCES.md.",
+  "funnel": {
+    "round": 9,
+    "date": "2026-10-12",
+    "steps": [
+      {
+        "label": "Opslag i databasen",
+        "count": 10245
+      },
+      {
+        "label": "Kan vurderes",
+        "count": 3097
+      },
+      {
+        "label": "Efter forfilter",
+        "count": 570
+      },
+      {
+        "label": "Nærlæst",
+        "count": 20
+      },
+      {
+        "label": "Kunne søges",
+        "count": 9
+      },
+      {
+        "label": "Valgt, pakke skrevet",
+        "count": 5
+      }
+    ]
+  },
+  "harvest": {
+    "period": "2026-08-20/2026-10-14",
+    "days": 56,
+    "new_rows": 5594,
+    "median_per_harvest_day": 103,
+    "relevant_for_review": 929
+  }
+}

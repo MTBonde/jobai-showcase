@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" role="img" aria-label="Fra opslag til ansøgning, runde 9 (2026-10-12)">
+<style>
+  .bg { fill: #ffffff; }
+  .bar { fill: #2f6f9f; }
+  .bar-last { fill: #c2611f; }
+  .label { fill: #1f2328; font: 14px system-ui, -apple-system, Segoe UI, sans-serif; }
+  .count { fill: #1f2328; font: 600 14px system-ui, -apple-system, Segoe UI, sans-serif; }
+  .title { fill: #1f2328; font: 600 16px system-ui, -apple-system, Segoe UI, sans-serif; }
+  .note { fill: #59636e; font: 12px system-ui, -apple-system, Segoe UI, sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0d1117; }
+    .bar { fill: #4f9bd1; }
+    .bar-last { fill: #e8894a; }
+    .label, .count, .title { fill: #e6edf3; }
+    .note { fill: #9198a1; }
+  }
+</style>
+<rect class="bg" width="720" height="380" rx="8"/>
+<text class="title" x="20" y="34">Fra opslag til ansøgning, runde 9 (2026-10-12)</text>
+<text class="label" x="20" y="86">Opslag i databasen</text>
+<rect class="bar" x="210" y="70" width="400" height="24" rx="4"/>
+<text class="count" x="620" y="87">10.245</text>
+<text class="label" x="20" y="132">Kan vurderes</text>
+<rect class="bar" x="210" y="116" width="348" height="24" rx="4"/>
+<text class="count" x="568" y="133">3.097</text>
+<text class="label" x="20" y="178">Efter forfilter</text>
+<rect class="bar" x="210" y="162" width="275" height="24" rx="4"/>
+<text class="count" x="495" y="179">570</text>
+<text class="label" x="20" y="224">Nærlæst</text>
+<rect class="bar" x="210" y="208" width="130" height="24" rx="4"/>
+<text class="count" x="350" y="225">20</text>
+<text class="label" x="20" y="270">Kunne søges</text>
+<rect class="bar" x="210" y="254" width="95" height="24" rx="4"/>
+<text class="count" x="315" y="271">9</text>
+<text class="label" x="20" y="316">Valgt, pakke skrevet</text>
+<rect class="bar-last" x="210" y="300" width="70" height="24" rx="4"/>
+<text class="count" x="290" y="317">5</text>
+<text class="note" x="20" y="364">Logaritmisk skala. Tæller rækker; samme job kan stå på flere portaler.</text>
+</svg>
