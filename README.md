@@ -35,11 +35,13 @@ Begge tider er målt i mine arbejdslogs. Kilder og målemetode: [stats/SOURCES.m
 | 7 | Kontrollere | Faktatjek og kold læsning |
 | 8 | Læse, rette, sende | Mig |
 
-## Tragten: Fra 10.245 opslag til 5 ansøgningspakker
+## Tragten: Fra 15.459 opslag til 9 job, der kunne søges
 
-![Tragten for runde 9](figures/funnel.svg)
+![Tragten for runde 14](figures/funnel.svg)
 
 Hvert trin skærer fra. Maskinen gør det grove arbejde; de sidste trin er mine.
+
+Hver runde lægger JobAI en håndfuld job frem, der kan søges. I runde 14 var det 9. Af dem vælger jeg 1-5, som jeg sender.
 
 ## Sådan hænger det sammen
 
@@ -107,6 +109,17 @@ nåede mig.
 
 Systemet er bygget ud fra, at en sprogmodel kan tage fejl. Derfor må intet stå i en
 ansøgning, som ikke har en kilde.
+
+## AI'en retter det meste selv
+
+Hver gang en vurdering bliver ændret, gemmer JobAI rettelsen: hvilket felt, gammel og ny værdi, hvem der rettede, og hvorfor. Så kan fejlraten måles i stedet for at blive gættet.
+
+| Hvem retter | Rettelser |
+|---|---|
+| JobAI's egne senere kontroller | 13.752 |
+| Mig | 331 |
+
+Ca. 98 % af rettelserne fanger systemet selv, før et job når mig. En rettelse er én ændret værdi på ét job. Målt 25. nov 2026.
 
 ## Fra idé til natlig drift
 

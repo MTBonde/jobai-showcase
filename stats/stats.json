@@ -1,20 +1,20 @@
 {
   "_note": "Aggregates only. Every number has its source and date in stats/SOURCES.md.",
   "funnel": {
-    "round": 9,
-    "date": "2026-10-12",
+    "round": 14,
+    "date": "2026-11-23",
     "steps": [
       {
         "label": "Opslag i databasen",
-        "count": 10245
+        "count": 15459
       },
       {
         "label": "Kan vurderes",
-        "count": 3097
+        "count": 4452
       },
       {
         "label": "Efter forfilter",
-        "count": 570
+        "count": 726
       },
       {
         "label": "Nærlæst",
@@ -23,10 +23,6 @@
       {
         "label": "Kunne søges",
         "count": 9
-      },
-      {
-        "label": "Valgt, pakke skrevet",
-        "count": 5
       }
     ]
   },
@@ -36,5 +32,11 @@
     "new_rows": 5594,
     "median_per_harvest_day": 103,
     "relevant_for_review": 929
+  },
+  "corrections": {
+    "date": "2026-11-25",
+    "automatic": 13752,
+    "operator": 331,
+    "unit": "rettelser (én ændret værdi på ét job)"
   }
 }

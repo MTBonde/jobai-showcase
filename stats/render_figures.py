@@ -46,7 +46,7 @@ def format_danish_thousands(number):
 
 
 def scaled_bar_width(count, largest_count):
-    """Log scale: 10.245 and 5 cannot share a linear axis and both stay readable."""
+    """Log scale: 15.459 and 9 cannot share a linear axis and both stay readable."""
     if count <= 1:
         return MINIMUM_BAR_WIDTH
     fraction = math.log10(count) / math.log10(largest_count)
